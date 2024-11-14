@@ -8,6 +8,7 @@ app.use(express.json())
 app.use(require("./routes/record"))
 const dbo = require("./db/conn")
 
+
 app.get("/", function(req, res) {
     res.send("App is running")
 })
